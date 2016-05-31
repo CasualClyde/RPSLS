@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="UTF-8">
+			<title>Rock, Paper, Scissors, Lizard, Spock</title>
+			<link rel="stylesheet" href="gamestyle.css">
+			<script src="js/pic.js"></script>
+			<script src="js/playGame.js"></script>
+	</head>
+	<body>
+		<h1>Welcome, warrior!</h1>
+		<h2>This is the ancient game of Rock, Paper, Scissors, Lizard, Spock.</h2>
+		<h3>Choose your weapon, warrior.</h3>
+
+		<button class="coolButton" type="button" onClick="imageFunc()">Click for Help</button>
+		<button class="coolButton" type="button" onClick="noMoreImage()">Less Help</button>
+	
+		<p id="image"></p>
+		<p id="weaponChosen"></p>
+		<form id="gameList">
+			<input type='image' value="Rock" src="images/rock.jpg" onClick="playGame('Rock')">
+			<input type='image' value="Paper" src="images/paper.jpg" onClick="playGame('Paper')">
+			<input type='image' value="Scissors" src="images/scissors.jpg" onClick="playGame('Scissors')">
+			<input type='image' value="Lizard" src="images/lizard.jpg" onClick="playGame('Lizard')">
+			<input type='image' value="Spock" src="images/spock.jpg" onClick="playGame('Spock')">
+		</form>
+
+		<script type="text/JavaScript">
+
+		</script>
+
+	</body>
+</html>
